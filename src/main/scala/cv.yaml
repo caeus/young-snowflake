@@ -1,0 +1,56 @@
+contact:
+  name:
+    first: Camilo
+    middle: Alejandro
+    last: Navas Mosquera
+  profile: |
+    Alejandro is a Computer Scientist and software Engineer. With vast experience as a Fullstack developer and Software architect. What else can I say about him?mmmm He's in love with RESTful architectures, functional programming and Scala's type system, but beyond that, he's a really fast learner and loves to work in spaces where he can learn new things. When it comes to problem solving, he's passionately thorough and resourceful. He's always been more of a scientist than an engineer... Meaning he's prefers to develop libraries than develop software. Nowadays willing to move towards academia and research (mainly in the field of complex systems and artificial intelligence)
+  experience:
+    - title: Software Architect
+      company:
+        name: GDX/Travel (Undertrail)
+        location: Bogotá, Colombia
+      duration:
+        since: 2015-09
+        until: 2017-06
+      description: |
+        I started as the first developer here in Colombia, mainly dealing with legacy code in Python. I was literally sold the idea that it was an amazing platform and I was excited to learn a new language. It was all lies (sorry guys). At the end I proposed an extreme architectural change which is what Undertrail is mainly using right now. At the end I got to learn a new language (Scala, which I chose for the new backend implementations), also learnt about Akka, AWS, Redis, RabbitMQ, Kafka, Javascript development (typescript, webpack, React, Vue, etc), and last but not least, I sharpened my knowledge in RESTful architectures which I deeply love.
+    - title: CTO
+      company:
+        name: Kiido SAS
+        location: Bogotá, Colombia
+      duration:
+        since: 2014-01
+        until: 2015-08
+      description: |
+        I was a victim of the entrepreneurial hype. It was here where I became a fullstack developer and started understanding Restful architectures. Many projects, mainly using Heroku, Play framework (Scala and Java), MongoDB, PostgresSQL, and Android (Java and Kotlin).
+    - title: Software developer
+      company:
+        name: Innerconsulting
+        location: Bogotá, Colombia
+      duration:
+        since: 2012-03
+        until: 2013-12
+      description: |
+        Not proud of what I did here (I'm writing this as of 2017). I considered myself a good developer but was by still very inexpert, to be honest. Good with Java in a very procedural way (full mutability and side effects and those bad things). I worked with EJB and GWT mainly. The projects, in which I worked, were called SIPE (Sistema de Ingresos, y Prestaciones Económicas) and Cajapagos (which I completely developed). They were software for Caja de Seguro Social de Panama.
+    - title: Software developer
+      company:
+        name: Heinsohn Software House
+        location: Bogotá, Colombia
+      duration:
+        since: 2011-01
+        until: 2011-05
+      description: |
+        I worked here just after I finished college. Extremely inexpert, I didn't even know about Maven; no one there, it seems. JSF was the technology which I was using mainly. About the job itself I've gotta say that it was so well organized that a Junior developer, as I was, didn't have the slightest chance to be creative.
+        Then again, this was my first job as developer.
+  education:
+    - degree: Bachelor of Engineering, Computer Engineering
+      school:
+        name: Universidad de los Andes
+        location: Bogotá, Colombia
+      duration:
+        since: 2007-01
+        until: 2010-12
+      notes:
+    - degree: Highschool diploma
+

@@ -17,6 +17,9 @@ case class Name(
                  last: String
                )
 
+case class Company(name: String,
+                   location: Address)
+
 case class Contact(
                     name: Name,
                     email: String,
@@ -24,19 +27,36 @@ case class Contact(
                     address: Address
                   )
 
-case class Duration(
-                     since: YearMonth,
-                     until: Option[YearMonth]
-                   )
+case class Period(
+                   since: YearMonth,
+                   until: Option[YearMonth]
+                 )
 
-case class Experience()
+case class Experience(position: String,
+                      company: Company,
+                      period: Period,
+                      description: String,
+                      story: Option[String])
 
-case class Education()
+case class Education(
+                      degree: String,
+                      focus: Option[String],
+                      period: Period,
+                      notes: Option[String] = None
+                    ) {
+
+
+}
 
 case class Skill(name: String,
-                 level: String,
-                 notes: Option[String]
-                )
+                 relevance: Int,
+                 proficiency: Double,
+                 tags: Set[String],
+                 notes: Option[String] = None
+                ) {
+  if (!(1 to 10 contains relevance)) throw new IllegalArgumentException("Relevance is a number between 1 and 10")
+  if (!(1 to 10 contains proficiency)) throw new IllegalArgumentException("proficiency is a number between 1 and 10")
+}
 
 case class References()
 

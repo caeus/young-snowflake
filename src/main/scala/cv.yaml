@@ -4,7 +4,7 @@ contact:
     middle: Alejandro
     last: Navas Mosquera
   profile: |
-    Alejandro is a Computer Scientist and software Engineer. With vast experience as a Fullstack developer and Software architect. What else can I say about him?mmmm He's in love with RESTful architectures, functional programming and Scala's type system, but beyond that, he's a really fast learner and loves to work in spaces where he can learn new things. When it comes to problem solving, he's passionately thorough and resourceful. He's always been more of a scientist than an engineer... Meaning he's prefers to develop libraries than develop software. Nowadays willing to move towards academia and research (mainly in the field of complex systems and artificial intelligence)
+    Computer Engineer with vast experience as full stack developer and software architect. Committed to RESTful principles, functional programming principles and fascinated about Scala's type system. Eager to work in environments where I can apply my knowledge and learn new skills. Passionate, thorough and resourceful in regards to problem solving. Willing to take a step towards academia and research, mainly in the field of complex systems and artificial intelligence.
   experience:
     - title: Software Architect
       company:
@@ -14,7 +14,7 @@ contact:
         since: 2015-09
         until: 2017-06
       description: |
-        I started as the first developer here in Colombia, mainly dealing with legacy code in Python. I was literally sold the idea that it was an amazing platform and I was excited to learn a new language. It was all lies (sorry guys). At the end I proposed an extreme architectural change which is what Undertrail is mainly using right now. At the end I got to learn a new language (Scala, which I chose for the new backend implementations), also learnt about Akka, AWS, Redis, RabbitMQ, Kafka, Javascript development (typescript, webpack, React, Vue, etc), and last but not least, I sharpened my knowledge in RESTful architectures which I deeply love.
+        I started as the first developer here in Colombia, mainly mantaining a django based ill designed solution. I took the rol to design and implement a new architecture. The current architecture is based on many play framework/scala based services and with extensive use of RabbitMQ and Akka Streams. At the end I got to learn a new language (Scala, which I chose for the new backend implementations), also learnt about Akka, AWS, Redis, RabbitMQ, Kafka, Javascript development (typescript, webpack, React, Vue, etc), and last but not least, I sharpened my knowledge in RESTful architectures which I deeply love.
     - title: CTO
       company:
         name: Kiido SAS

@@ -315,6 +315,11 @@ Very little space to be creative.""",
         proficiency = 6: Int,
         tags = Set("programming-language", "jvm", "scala"): Set[String]
       ),
+      Skill(name = "Node.js": String,
+        relevance = 2: Int,
+        proficiency = 6: Int,
+        tags = Set("programming-language", "jvm", "scala"): Set[String]
+      ),
       Skill(name = "Slick": String,
         relevance = 7: Int,
         proficiency = 6: Int,
